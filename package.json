@@ -1,0 +1,35 @@
+{
+  "name": "your-nextjs-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.0.0",
+    "@codemirror/lang-python": "^6.0.0",
+    "@uiw/react-codemirror": "^4.1.0",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.0.0",
+    "codemirror": "^5.65.5",
+    "next": "^15.0.3",
+    "next-auth": "^4.18.7",
+    "postcss": "^8.4.49",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "react-syntax-highlighter": "^15.4.3",
+    "redux": "^4.2.1",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "eslint": "^8.39.0",
+    "eslint-config-next": "^15.0.3"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
